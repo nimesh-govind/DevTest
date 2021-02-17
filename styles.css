@@ -21,7 +21,6 @@
     height: 500px;
     position: absolute;
     top: 583px;
-    /* opacity: 0.5; */
 }
 
 .centered {
@@ -98,15 +97,12 @@ img {
   flex-wrap: nowrap;
 }
 .card {
-  /* Add shadows to create the "card" effect */
-  /* flex-wrap: nowrap; */
   margin: 10px;
   border: solid, #5E6E66;
   border-width: 1px 1px;
   border-radius: 10px;
   width: 350px;
 }
-/* Add some padding inside the card container */
 .container6 {
   font-family: 'Quicksand', sans-serif;
   font-size: 28px;
@@ -136,13 +132,6 @@ img {
   margin-bottom: 20px;
 }
 
-/* .activitytitle {
-  margin: 20px;
-  font-size: 28px;
-  font-weight: medium 500;
-  color: #36413C;
-} */
-
 .cardtitle { 
   margin-left: 20px;
   font-size: 28px;
@@ -151,3 +140,170 @@ img {
 }
 
 
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  /* Styles */
+  #container1 {
+    height: 300px;
+    width: 120%;
+  }
+
+  .centered {
+    top: 110px;
+    left: 190px;
+    font-size: 30px;
+  }
+
+  .centered2 {
+    display: flex;
+    position: absolute;
+    top: 150px;
+    left: 275px;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-weight: Medium 500;
+  }
+
+  .centered3 {
+    top: 225px;
+    left: 135px;
+  }
+
+  .centered4 {
+    font-size: 30px;
+  }
+
+  .centered5 {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: medium 500;
+    color: #5E6E66;
+    font-size: 20px;
+  }
+
+  .container6 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 28px;
+    margin-top: -50px;
+    justify-content: left;
+    border-right: 1px solid #5E6E66;
+    border-left: 1px solid #5E6E66;
+    border-bottom: 1px solid #5E6E66;
+    border-radius: 10px;
+    box-shadow: #5E6E66;
+    top: 50px;
+    left: 50px; 
+  }
+  .cards {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 200px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+  }
+
+  .card {
+    align-items: center;
+  }
+
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+  }
+
+  /* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  /* Styles */
+  #container1 {
+    height: 155px;
+    width: 300px;
+  }
+
+  .centered {
+    top: 30px;
+    left: 130px;
+    font-size: 24px;
+  }
+
+  .centered2 {
+    display: flex;
+    position: absolute;
+    top: 100px;
+    left: 130px;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    font-weight: Medium 500;
+  }
+
+  .centered3 {
+    top: 175px;
+    left: 110px;
+    font-size: 16px;
+  }
+
+  button {
+    height: 24px;
+  }
+
+  .centered4 {
+    font-size: 20px;
+  }
+
+  .centered5 {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: medium 500;
+    color: #5E6E66;
+    font-size: 16px;
+  }
+
+  .container6 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 28px;
+    margin-top: -50px;
+    justify-content: left;
+    border-right: 1px solid #5E6E66;
+    border-left: 1px solid #5E6E66;
+    border-bottom: 1px solid #5E6E66;
+    border-radius: 10px;
+    box-shadow: #5E6E66;
+    top: 50px;
+    left: 50px; 
+  }
+
+  .cards {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    margin: -15px;
+  }
+
+  img {
+    width: 85%;
+  }
+
+  .card {
+    align-items: center;
+  }
+
+  .cardtitle {
+    font-size: 20px;
+  }
+
+  .cardtext {
+    font-size: 16px;
+  }
+
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+  }
